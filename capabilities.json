@@ -1,0 +1,141 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Any Data",
+            "name": "measure",
+            "kind": "GroupingOrMeasure"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "measure"
+                            }
+                        }
+                    ]
+                }
+            },
+            "conditions": [
+                {
+                    "measure": {
+                        "min": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "objects": {
+        "placeholder": {
+            "displayName": "Placeholder",
+            "properties": {
+               "showSize": {
+                   "displayName": "Show size",
+                   "type": {
+                       "bool": true
+                   }
+               },
+               "showIcon": {
+                   "displayName": "Show icon",
+                   "type": {
+                       "bool": true
+                   }
+               },
+               "kind": {
+                   "displayName": "Chart type",
+                   "type": {
+                       "enumeration": [
+                            {
+                               "displayName": "Bar chart",
+                                "value": "barchart"
+                            },
+                            {
+                               "displayName": "Column chart",
+                                "value": "colchart"
+                            },
+                            {
+                               "displayName": "Line chart",
+                                "value": "linechart" 
+                            },
+                            {
+                               "displayName": "Area chart",
+                                "value": "areachart" 
+                            },
+                            {
+                               "displayName": "Map",
+                                "value": "map" 
+                            },
+                            {
+                               "displayName": "Donut chart",
+                                "value": "donutchart" 
+                            },
+                             {
+                               "displayName": "Pie chart",
+                                "value": "piechart" 
+                            },
+                            {
+                               "displayName": "Treemap",
+                                "value": "treemap" 
+                            },
+                             {
+                               "displayName": "Scatter chart",
+                                "value": "scatterchart" 
+                            },
+                            {
+                               "displayName": "Waterfall chart",
+                                "value": "waterfallchart" 
+                            },
+                            {
+                               "displayName": "Funnel",
+                                "value": "funnel" 
+                            },
+                            {
+                               "displayName": "Gauge",
+                                "value": "gauge" 
+                            },
+                            {
+                               "displayName": "Card",
+                                "value": "card" 
+                            },
+                             {
+                               "displayName": "Table",
+                                "value": "table" 
+                            },
+                            {
+                               "displayName": "Other",
+                                "value": "nochart" 
+                            }
+                       ]
+                   }
+               },
+               "text": {
+                   "displayName": "Text",
+                   "type": {
+                       "text": true
+                   }
+               },
+               "textSize": {
+                   "displayName": "Text size",
+                   "type": {
+                      "formatting": { "fontSize": true } 
+                   }
+               },
+               "stroke": {
+                    "displayName": "Color",
+                     "type": {
+                         "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                     }
+               }
+
+            }
+        },
+        "t": { "properties": { "u": { "type": { "text": true } } } }
+    }
+}
