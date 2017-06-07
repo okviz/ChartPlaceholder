@@ -10619,8 +10619,8 @@ var powerbi;
     (function (visuals) {
         var plugins;
         (function (plugins) {
-            plugins.PBI_CV_3954E287_F4CF_4688_B99C_BBA0E79B6CCD = {
-                name: 'PBI_CV_3954E287_F4CF_4688_B99C_BBA0E79B6CCD',
+            plugins.PBI_CV_3954E287_F4CF_4688_B99C_BBA0E79B6CCD_DEBUG = {
+                name: 'PBI_CV_3954E287_F4CF_4688_B99C_BBA0E79B6CCD_DEBUG',
                 displayName: 'Chart Placeholder by OKViz',
                 class: 'Visual',
                 version: '1.0.0',
