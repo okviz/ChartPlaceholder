@@ -4,7 +4,7 @@ Chart Placeholder by OKViz simplifies prototyping and alignment of charts in you
 
 ![alt tag](screenshot.png)
 
-Find out more on http://okviz.com/chart-placeholder/
+Find out more on https://okviz.com/chart-placeholder/
 
 
 ### Copyrights
